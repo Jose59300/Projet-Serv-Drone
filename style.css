@@ -98,7 +98,7 @@ footer ul{
     left: 20px;
     text-decoration: none;
 }
-footer ul li{
+footer ul li a{
     color: white;
     text-decoration: none;
 }
