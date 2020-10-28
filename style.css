@@ -24,14 +24,23 @@ nav a {
 .nav_mobile{
     width: 100%;
     height: 100px;
-    background-color: white;
     position: relative;
+}
+.list_mobile ul li{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+
 }
 
 .button_hamburger:hover .list_mobile{
     display: block;
 }
-
+.list_mobile ul:hover{
+    display: block;
+}
 .list_mobile{
     position: absolute;
     display: none;
@@ -144,6 +153,7 @@ footer p{
         border-bottom:2px solid black;
     }
 
+@media screen and (min-width: 768px){
     .nav_mobile{
         display: none;
     }
