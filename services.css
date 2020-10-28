@@ -1,0 +1,574 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'roboto', sans-serif;
+  box-sizing: border-box;
+  background: radial-gradient(#F4F4F4, #ffffff);
+}
+
+nav{
+  width: 100%;
+  height: 200px;
+  display: inline;
+  z-index: 30;
+  top: 0;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: lighter;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav_mobile{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 30;
+}
+.list_mobile ul li{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+
+}
+
+.button_hamburger:hover .list_mobile{
+  display: block;
+}
+
+.list_mobile ul:hover{
+  display: block;
+}
+
+.list_mobile{
+  position: absolute;
+  display: none;
+  width: 30%;
+  float: none;
+  text-align: center;
+  background-color: white;
+  top: 100px;
+  right: 0;
+  padding: 0 20px;
+}
+
+.list_mobile ul li{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+  border-bottom: 2px solid black;
+}
+
+.list_mobile li a{
+  width: 100%;
+}
+
+.list_mobile ul:hover{
+  display: block;
+}
+
+.list_mobile ul li:hover{
+  display: block;
+}
+
+nav .list_mobile li:hover{
+  color:#032442;
+}
+
+.nav_desktop{
+  display: none;
+} 
+
+.logo_servdrone{
+  width: 140px;
+  padding: 12px;
+  float: left;
+}
+
+.button_hamburger{
+  width: 50px;
+  float: right;
+  margin:30px 14%;
+}
+
+.button_hamburger img{
+  width: 100%;
+}
+
+/******** SECTION 1 *******/
+
+.content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 193px;
+  width: 100%
+}
+
+
+.sky {
+  width: 100%;
+}
+
+.text-content {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-family: 'dolce vita';
+}
+
+/******** SECTION 2 *******/
+
+.background_pack {
+  padding: 20px;
+}
+
+.title_services {
+  display: block;
+}
+
+.first_pack {
+  color: #032442;
+  font-size: 70px;
+  line-height: 45px;;
+  text-align: center;
+}
+
+.light_size {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.title_drone {
+  color: #032442;
+  font-family: 'dolce vita';
+  font-size: 30px;
+}
+
+.typo_size_title {
+  font-size: 25px;
+}
+
+.description_services {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.line {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.garantie {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.typo_size_paragraphe {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.button_buy {
+  width: 100%;
+}
+
+.button_buy a{
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/******** SECTION 3 *******/
+.background_pack_quinze {
+  background-color: #032442;
+  padding: 30px;
+  padding-bottom: 90px;
+}
+
+.title_services_two {
+  display: block;
+}
+
+.second_pack {
+  color: white;
+  font-size: 70px;
+  line-height: 45px;;
+  text-align: center;
+}
+
+.light_size_pack {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.service_supp {
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.services_added {
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+}
+
+.typo_size_drone {
+  font-size: 25px;
+}
+
+.description_drone_plus {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  font-weight: 300;
+}
+
+.line_drone_plus {
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.garantie_drone_plus {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.typo_size_drone_plus {
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+.button_buy {
+  width: 100%;
+}
+
+.button_buy a{
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/******** SECTION 4 *******/
+.background_pack_deluxe {
+  padding: 20px;
+}
+
+.title_services_deluxe {
+  display: block;
+}
+
+.title_deluxe {
+  color: #032442;
+  font-size: 70px;
+  line-height: 45px;;
+  text-align: center;
+}
+
+.light_size_deluxe {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.title_drone {
+  color: #032442;
+  font-family: 'dolce vita';
+  font-size: 30px;
+}
+
+.service_added_deluxe {
+  font-family: 'dolce vita';
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+  color: #032442;
+}
+
+.services_supp_deluxe {
+  font-family: 'dolce vita';
+  font-size: 30px;
+  color: #032442;
+}
+
+.typo_size_deluxe {
+  font-size: 25px;
+}
+
+.deluxe_paragraphe {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.line {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.garantie_deluxe {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.typo_deluxe_size {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.button_buy {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.button_buy a{
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+ 
+/******** SECTION 5 *******/
+.pictures_drone {
+  padding: 20px;
+  background-color: white;
+
+}
+
+.drone_colis,
+.picture_drone_two,
+.pictures_drone_one {
+  padding: 20px;
+}
+
+.drone_colis_picture,
+.drone_grey,
+.drone_flying {
+  width: 100%;
+}
+
+/******** SECTION 6 *******/
+.background_application {
+  padding: 20px;
+  background-color: #032442;
+}
+
+.explication_application {
+  display: block;
+}
+
+.application_title {
+  text-align: center;
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+
+}
+
+.paragraphe_explication {
+  margin-top: 70px;
+  display: inline-flex;
+}
+.line_orange {
+  border: 1px solid #F18819;
+  display: flex;
+  margin-right: 10px;
+}
+
+.app_paragraphe {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.bouton_app {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.bouton_app a {
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/******** SECTION 7 *******/
+
+.logo_app {
+  display: flex;
+  margin-top: 80px;
+}
+
+.android,
+.apple {
+  padding: 10px;
+  width: 100%;
+}
+
+.phone_gps {
+  margin-top: 80px;
+}
+
+.phone {
+  width: 100%;
+}
+
+
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 10px;
+}
+.content-communauté {
+  margin: 30px;
+}
+.communauté {
+  font-family: 'dolce vita', sans-serif;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 50px;
+}
+
+/******** FOOTER *********/
+
+footer{
+  position: relative;
+  width: 100%;
+  height: 114px;
+  background-color: #032442;
+  font-size: 10px;
+  color: white;
+}
+footer ul{
+  list-style: none;
+  width: 40%;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  text-decoration: none;
+}
+footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+footer img{
+  position: absolute;
+  right: 20px;
+  width: 90px;
+  bottom: 35px;
+}
+footer p{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+.nav_desktop{
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+.list_desktop {
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+
+.list_desktop ul{
+  list-style-type: none;
+  margin:40px 0;    
+}
+
+.list_desktop li{
+  float: left;
+  margin: 0 20px;
+  padding: 0 10px 15px 10px;
+}
+
+.list_desktop li a{
+  float: block;
+}
+
+.list_desktop li:hover{
+  border-bottom:2px solid black;
+}
+
+.nav_mobile{
+  display: none;
+
+}
