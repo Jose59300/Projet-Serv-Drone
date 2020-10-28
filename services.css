@@ -114,7 +114,6 @@ nav .list_mobile li:hover{
   display: flex;
   align-items: center;
   position: relative;
-  height: 193px;
   width: 100%
 }
 
@@ -449,7 +448,7 @@ nav .list_mobile li:hover{
   padding-right: 20px;
   padding-left: 20px;
   text-decoration: none;
-  font-family: 'roboto', sans-serif;
+  font-family: 'dolce vita', sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
@@ -570,5 +569,873 @@ footer p{
 
 .nav_mobile{
   display: none;
+}
 
+
+/******** SECTION 1 *******/
+
+.text-content {
+  font-size: 30px;
+}
+
+/******** SECTION 2 *******/
+
+.background_pack {
+  padding: 40px;
+}
+
+.title_services {
+  display: block;
+}
+
+.first_pack {
+  font-size: 90px;
+  line-height: 65px;;
+}
+
+.light_size {
+  font-size: 60px;
+}
+
+.title_drone {
+  font-size: 50px;
+}
+
+.typo_size_title {
+  font-size: 35px;
+}
+
+.description_services {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.line {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 290px;
+}
+
+.garantie {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.typo_size_paragraphe {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.button_buy {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.button_buy a{
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
+/******** SECTION 3 *******/
+.background_pack_quinze {
+  background-color: #032442;
+  padding: 40px;
+  padding-bottom: 90px;
+}
+
+.title_services_two {
+
+}
+
+.second_pack {
+  font-size: 90px;
+  line-height: 65px;;
+}
+
+.light_size_pack {
+  font-size: 60px;
+}
+
+.service_supp {
+  font-size: 50px;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+
+.services_added {
+  font-size: 35px;
+}
+
+.typo_size_drone {
+  font-size: 28px;
+}
+
+.description_drone_plus {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.line_drone_plus {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 290px;
+}
+
+.garantie_drone_plus {
+  font-size: 50px;
+
+}
+.typo_size_drone_plus {
+  font-size: 35px;
+
+}
+
+.button_buy {
+  margin-top: 80px;
+}
+
+.button_buy a{
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+/******** SECTION 4 *******/
+.background_pack_deluxe {
+  padding: 40px;
+}
+
+.title_services_deluxe {
+
+}
+
+.title_deluxe {
+  font-size: 90px;
+  line-height: 65px;
+}
+
+.light_size_deluxe {
+  font-size: 60px;
+}
+
+.title_drone {
+  font-size: 50px;
+}
+
+.service_added_deluxe {
+  font-size: 50px;
+  line-height: 40px;
+  margin-bottom: 90px;
+}
+
+.services_supp_deluxe {
+  font-size: 50px;
+}
+
+.typo_size_deluxe {
+  font-size: 28x;
+}
+
+.deluxe_paragraphe {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.line {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 290px;
+}
+
+.garantie_deluxe {
+  font-size: 50px;
+}
+
+.typo_deluxe_size {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.button_buy {
+  margin-top: 80px;
+}
+
+.button_buy a{
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 25px;
+}
+ 
+/******** SECTION 5 *******/
+.pictures_drone {
+  padding: 40px;
+}
+
+/******** SECTION 6 *******/
+.background_application {
+  padding: 40px;
+}
+
+.explication_application {
+
+}
+
+.application_title {
+  font-size: 50px;
+}
+
+.paragraphe_explication {
+  margin-top: 70px;
+}
+.line_orange {
+
+  margin-right: 20px;
+}
+
+.app_paragraphe {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.bouton_app {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.bouton_app a {
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 25px;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1500px){
+/******** SECTION 1 *******/
+
+.text-content {
+  font-size: 50px;
+}
+
+/******** SECTION 2 *******/
+
+.background_pack {
+  padding: 70px;
+}
+
+.title_services {
+  display: block;
+}
+
+.first_pack {
+  font-size: 140px;
+  line-height: 110px;
+}
+
+.light_size {
+  font-size: 80px;
+}
+
+.title_drone {
+  font-size: 70px;
+}
+
+.typo_size_title {
+  font-size: 45px;
+}
+
+.description_services {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.line {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  width: 390px;
+}
+
+.garantie {
+  font-size: 70px;
+}
+
+.typo_size_paragraphe {
+  font-size: 45px;
+}
+
+.button_buy {
+  width: 100%;
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 45px;
+}
+
+
+/******** SECTION 3 *******/
+
+.background_pack_quinze {
+  padding: 70px;
+  padding-bottom: 100px;
+}
+
+.title_services_two {
+
+}
+
+.second_pack {
+  font-size: 140px;
+  line-height: 110px;;
+}
+
+.light_size_pack {
+  font-size: 80px;
+}
+
+.service_supp {
+  font-size: 70px;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+
+.services_added {
+  font-size: 70px;
+}
+
+.typo_size_drone {
+  font-size: 38px;
+}
+
+.description_drone_plus {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.line_drone_plus {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  width: 390px;
+}
+
+.garantie_drone_plus {
+  font-size: 70px;
+
+}
+.typo_size_drone_plus {
+  font-size: 45px;
+
+}
+
+.button_buy {
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+/******** SECTION 4 *******/
+
+.background_pack_deluxe {
+  padding: 70px;
+}
+
+.title_services_deluxe {
+
+}
+
+.title_deluxe {
+  font-size: 140px;
+  line-height: 110px;
+}
+
+.light_size_deluxe {
+  font-size: 80px;
+}
+
+.title_drone {
+  font-size: 70px;
+}
+
+.service_added_deluxe {
+  font-size: 70px;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+
+.services_supp_deluxe {
+  font-size: 70px;
+}
+
+.typo_size_deluxe {
+  font-size: 38px;
+}
+
+.deluxe_paragraphe {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.line {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  width: 390px;
+}
+
+.garantie_deluxe {
+  font-size: 70px;
+}
+
+.typo_deluxe_size {
+  font-size: 45px;
+}
+
+.button_buy {
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 45px;
+}
+ 
+/******** SECTION 5 *******/
+
+.pictures_drone {
+  padding: 70px;
+}
+
+.drone_colis,
+.picture_drone_two,
+.pictures_drone_one {
+  padding: 50px;
+}
+
+.drone_colis_picture,
+.drone_grey,
+.drone_flying {
+  width: 100%;
+}
+
+/******** SECTION 6 *******/
+
+.background_application {
+  padding: 70px;
+}
+
+.explication_application {
+
+}
+
+.application_title {
+  font-size: 70px;
+}
+
+.paragraphe_explication {
+  margin-top: 70px;
+}
+.line_orange {
+  margin-right: 40px;
+}
+
+.app_paragraphe {
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.bouton_app {
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.bouton_app a {
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 35px;
+}
+
+/******** SECTION 7 *******/
+
+.logo_app {
+  display: flex;
+  margin-top: 100px;
+}
+
+.android,
+.apple {
+  padding: 40px;
+  width: 100%;
+}
+
+.phone_gps {
+  margin-top: 100px;
+}
+
+.phone {
+  width: 100%;
+}
+
+
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 40px;
+}
+.content-communauté {
+  margin: 30px;
+}
+.communauté {
+  font-size: 50px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 80px;
+}
+}
+
+@media screen and (min-width: 1500px){
+/******** SECTION 1 *******/
+
+.text-content {
+  font-size: 60px;
+}
+
+/******** SECTION 2 *******/
+
+.background_pack {
+  padding: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between
+}
+
+.title_services {
+  display: inline-flex;
+  margin-bottom: auto;
+}
+
+.first_pack {
+  font-size: 190px;
+  line-height: 140px;
+}
+
+.light_size {
+  font-size: 100px;
+}
+
+.drone_buy {
+  width: 60%;
+}
+
+.title_drone {
+  font-size: 70px;
+}
+
+.typo_size_title {
+  font-size: 55px;
+}
+
+.description_services {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.line {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 590px;
+}
+
+.garantie {
+  font-size: 82px;
+}
+
+.typo_size_paragraphe {
+  font-size: 60px;
+}
+
+.button_buy {
+  width: 100%;
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 55px;
+}
+
+
+/******** SECTION 3 *******/
+
+.background_pack_quinze {
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.title_services_two {
+  display: inline-flex;
+  margin-bottom: auto;
+}
+
+.second_pack {
+  font-size: 190px;
+  line-height: 140px;
+}
+
+.light_size_pack {
+  font-size: 100px;
+}
+
+.service_supp {
+  font-size: 70px;
+  line-height: 80px;
+  text-align: left;
+}
+
+.drone_buy_two {
+  width: 51%;
+}
+
+.services_added {
+  font-size: 70px;
+}
+
+.typo_size_drone {
+  font-size: 38px;
+}
+
+.description_drone_plus {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.line_drone_plus {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 590px;
+}
+
+.garantie_drone_plus {
+  font-size: 82px;
+
+}
+.typo_size_drone_plus {
+  font-size: 60px;
+
+}
+
+.button_buy {
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 55px;
+  margin-bottom: 100px;
+}
+
+/******** SECTION 4 *******/
+
+.background_pack_deluxe {
+  padding: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between
+}
+
+.title_services_deluxe {
+  display: inline-flex;
+  margin-bottom: auto;
+}
+
+.title_deluxe {
+  font-size: 190px;
+  line-height: 140px;
+}
+
+.light_size_deluxe {
+  font-size: 100px;
+}
+
+.title_drone {
+  font-size: 70px;
+}
+
+.service_added_deluxe {
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 70px;
+  text-align: left;
+}
+
+.services_supp_deluxe {
+  font-size: 70px;
+}
+
+.typo_size_deluxe {
+  font-size: 55px;
+}
+
+.deluxe_paragraphe {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.line {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 590px;
+}
+
+.garantie_deluxe {
+  font-size: 82px;
+}
+
+.typo_deluxe_size {
+  font-size: 60px;
+}
+
+.button_buy {
+  margin-top: 130px;
+}
+
+.button_buy a{
+  padding: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 55px;
+}
+ 
+/******** SECTION 5 *******/
+
+.pictures_drone {
+  padding: 10px;
+  display: inline-flex;
+}
+
+.picture_drone_two {
+  padding: 50px;
+  width: 100%;
+}
+
+.drone_colis {
+  padding: 50px;
+  width: 100%;
+}
+.pictures_drone_one {
+  padding: 50px;
+  width: 100%;
+}
+
+
+
+/******** SECTION 6 *******/
+
+.background_application {
+  padding: 70px;
+  display: inline-flex
+}
+
+.explication_application {
+
+}
+
+.application_title {
+  font-size: 80px;
+  text-align: left;
+}
+
+.paragraphe_explication {
+  margin-top: 70px;
+}
+.line_orange {
+  margin-right: 40px;
+}
+
+.app_paragraphe {
+  font-size: 60px;
+  line-height: 65px;
+  width: 60%;
+}
+
+.bouton_app {
+  width: 100%;
+  margin-top: 115px;
+}
+
+.bouton_app a {
+  padding: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 55px;
+}
+
+/******** SECTION 7 *******/
+
+.logo_app {
+  display: flex;  
+  width: 40%;
+}
+
+
+.phone_gps {
+  margin-top: 100px;
+}
+
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 40px;
+}
+.content-communauté {
+  margin: 30px;
+}
+.communauté {
+  font-size: 70px;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 120px;
+}
 }
