@@ -75,7 +75,7 @@ nav .list_mobile li:hover{
 }
  .nav_desktop{
     display: none;
-} 
+}
 .logo_servdrone{
     width: 140px;
     padding: 12px;
@@ -139,7 +139,7 @@ footer p{
     }
     .list_desktop ul{
         list-style-type: none;
-        margin:40px 0;    
+        margin:40px 0;
     }
     .list_desktop li{
         float: left;
