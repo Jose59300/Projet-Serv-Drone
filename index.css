@@ -19,7 +19,7 @@ body .sub_title{
     background-position: 50% 50%;
 }
 .text_background_image{
-    width: 100%;
+    width: 80%;
     color: white;
     float: left;
     padding: 50px 0 0 20px;
@@ -153,6 +153,9 @@ body .sub_title{
 .press_talks p{
     padding:20px 0;
 }
+.paper_articles{
+    padding-bottom: 40px;
+}
 .paper_articles img{
     width: 30%;
     display: inline;
@@ -162,9 +165,7 @@ body img{
     width: 100%;
 }
 @media screen and (min-width: 768px){
-    .background_image{
-        
-    }
+
     .text_background_image {
         float: left;
     }
@@ -180,7 +181,6 @@ body img{
         width: 50%;
     }
     .services{
-        flex-direction: row; 
         flex-wrap: wrap;
     }
     .packs{
