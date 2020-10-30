@@ -10,6 +10,11 @@ body .sub_title{
     font-family: 'dolce vita';
     font-size:20px;
 }
+.startup_paragraph p,
+.services p,
+.button_service_pack p{
+    font-family: 'roboto';
+}
 
 .background_image{
     height: 200px;
