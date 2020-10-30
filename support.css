@@ -29,7 +29,7 @@ h2 {
   background-color: #FF993C;
   width: 250px;
   height: 50px;
-  border-radius: 10%;
+  border-radius: 20px;
   margin: 50px;
 }
 
@@ -68,6 +68,36 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 50px 25px;
+}
+.communityText h2,
+.softwareText h2,
+.helpText h2{
+  font-family: 'dolce vita';
+}
+.helpText p,
+.softwareText p{
+  font-family: 'roboto';
+}
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 10px;
+}
+.content_community {
+  margin: 30px;
+}
+.community {
+  font-family: 'dolce vita', sans-serif;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 50px;
 }
 
 
