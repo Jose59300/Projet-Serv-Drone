@@ -9,6 +9,10 @@ html, body {
   background: radial-gradient(#F4F4F4, #ffffff);
 }
 
+* {
+  font-family: 'roboto',  sans-serif;
+  box-sizing: border-box;
+}
 
 /******** SECTION 1 *******/
 
