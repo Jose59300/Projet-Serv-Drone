@@ -6,6 +6,14 @@ html, body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
 }
+
+@font-face {
+  font-family: 'dolce vita';
+  src : url('Dolce\ Vita.ttf'),
+        url('Dolce\ Vita\ Heavy\ Bold.ttf'),
+        url('Dolce\ Vita\ Light.ttf');
+}
+
 .content-section-history {
   display: inline-flex;
   justify-content: center;
@@ -15,9 +23,11 @@ html, body {
   width: 100%;
 }
 h1 {
-  font-family: 'dolce vita', sans-serif;
+  font-family: 'Dolce Vita';
   color: white;
   position: absolute;
+  margin-top: auto;
+  font-size: 50px;
 }
 .content-section-paragraphe-two,
 .content-section-paragraphe {
@@ -60,150 +70,33 @@ h1 {
   margin-right: auto;
   width: 190px;
 }
+
+
 .background-section {
   background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
-  padding: 10px;
+  padding: 20px;
 }
-.content-communauté {
-  margin: 30px;
-}
-.communauté {
+
+.communauty {
   font-family: 'dolce vita', sans-serif;
   text-align: center;
 }
+
 .logos {
   display: flex;
   justify-content: space-around;
   margin-top: 45px;
 }
+
 .logo-instagram,
 .logo-twitter,
 .logo-fb {
-  width: 50px;
-}
-
-nav{
-  width: 100%;
-  height: 200px;
-  display: inline;
-  top: 0;
-}
-nav ul{
-  list-style-type: none;
-}
-nav li{
-  font-family: 'roboto';
-  font-size: 18px;
-  font-weight: lighter;
-}
-nav a {
-  text-decoration: none;
-  color: black;
-}
-.nav_mobile{
-  width: 100%;
-  height: 100px;
-  position: relative;
-}
-.list_mobile ul li{
-  float: none;
-  width: 100%;
-  text-align: center;
-  padding: 40px 0;
-  font-size: 14px;
-
-}
-
-.button_hamburger:hover .list_mobile{
-  display: block;
-}
-.list_mobile ul:hover{
-  display: block;
-}
-.list_mobile{
-  position: absolute;
-  display: none;
   width: 30%;
-  float: none;
-  text-align: center;
-  background-color: white;
-  top: 100px;
-  right: 0;
-  padding: 0 20px;
-}
-.list_mobile ul li{
-  float: none;
-  width: 100%;
-  text-align: center;
-  padding: 40px 0;
-  font-size: 14px;
-  border-bottom: 2px solid black;
+  height: 30%;
 }
 
-.list_mobile li a{
-  width: 100%;
-}
-.list_mobile ul:hover{
-  display: block;
-}
-.list_mobile ul li:hover{
-  display: block;
-}
-nav .list_mobile li:hover{
-  color:#032442;
-}
-.nav_desktop{
-  display: none;
-} 
-.logo_servdrone{
-  width: 140px;
-  padding: 12px;
-  float: left;
-}
-.button_hamburger{
-  width: 50px;
-  float: right;
-  margin:30px 14%;
-}
-.button_hamburger img{
-  width: 100%;
-}
-/******** FOOTER *********/
 
-footer{
-  position: relative;
-  width: 100%;
-  height: 114px;
-  background-color: #032442;
-  font-size: 10px;
-  color: white;
-}
-footer ul{
-  list-style: none;
-  width: 40%;
-  position: absolute;
-  bottom: 40px;
-  left: 20px;
-  text-decoration: none;
-}
-footer ul li a{
-  color: white;
-  text-decoration: none;
-}
-footer img{
-  position: absolute;
-  right: 20px;
-  width: 90px;
-  bottom: 35px;
-}
-footer p{
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
 h1 {
   font-size: 60px;
 }
@@ -218,7 +111,7 @@ h1 {
 }
 .content-section-paragraphe-two,
 .content-section-paragraphe {
-  margin: 40px;
+  margin: 55px;
   display: flex;
 }
 .content-civilisation,
@@ -229,6 +122,7 @@ h1 {
 .drone-military-title,
 .content-innovation {
   width: 50%;
+  margin-right: 70px;
 }
 .line-one {
   display: none;
@@ -245,191 +139,25 @@ h1 {
   font-size: 18px;
 }
 
-.nav_desktop{
-  width: 100%;
-  height: 100px;
-  display: block;
-}
-.list_desktop {
-  width: 75%;
-  height: 100%;
-  float: left;
-}
-.list_desktop ul{
-  list-style-type: none;
-  margin:40px 0;    
-}
-.list_desktop li{
-  float: left;
-  margin: 0 20px;
-  padding: 0 10px 15px 10px;
-}
-.list_desktop li a{
-  float: block;
-}
-.list_desktop li:hover{
-  border-bottom:2px solid black;
-}
-.nav_mobile{
-  display: none;
+.background-section {
+  padding: 40px;
 }
 
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
 }
-@media screen and (min-width: 992px) and (max-width: 1200px){
-h1 {
-  font-size: 90px;
-}
-.drone-actuel-title,
-.drone-innovation-title,
-.drone-civilisation-title,
-.drone-military {
-  font-size: 35px;
-}
-.typo-size {
-  font-size: 30px;
-}
-  
-.content-section-paragraphe-two,
-.content-section-paragraphe {
-  margin: 40px;
-  display: flex;
-}
-  
-  
-.content-civilisation,
-.drone-actuel {
-  width: 50%;
-  margin-left: 90px;
-}
-  
-.drone-military-title,
-.content-innovation {
-  width: 50%;
-}
-  
-  
-.line-one {
-  display: none;
-}
-  
-.line {
-  margin-top: 40px;
-  margin-left: 0;
-  width: 290px;
-}
-  
-.drone-actuel-paragraphe,
-.drone-innovation-paragraphe,
-.drone-civilisation-paragraphe,
-.drone-military-paragraphe {
-  font-size: 18px;
 }
 
-.nav_desktop{
-  width: 100%;
-  height: 100px;
-  display: block;
-}
-.list_desktop {
-  width: 75%;
-  height: 100%;
-  float: left;
-}
-.list_desktop ul{
-  list-style-type: none;
-  margin:40px 0;    
-}
-.list_desktop li{
-  float: left;
-  margin: 0 20px;
-  padding: 0 10px 15px 10px;
-}
-.list_desktop li a{
-  float: block;
-}
-.list_desktop li:hover{
-  border-bottom:2px solid black;
-}
-.nav_mobile{
-  display: none;
-}
-}
-@media screen and (min-width: 1200px) {
-h1 {
-  font-size: 90px;
-}
-.drone-actuel-title,
-.drone-innovation-title,
-.drone-civilisation-title,
-.drone-military {
-  font-size: 35px;
-}
-.typo-size {
-  font-size: 30px;
+@media screen and (min-width: 992px){
+.background-section {
+  padding: 40px;
 }
   
-.content-section-paragraphe-two,
-.content-section-paragraphe {
-  margin: 40px;
-  display: flex;
-}
-  
-  
-.content-civilisation,
-.drone-actuel {
-  width: 50%;
-  margin-left: 90px;
-}
-  
-.drone-military-title,
-.content-innovation {
-  width: 50%;
-}
-  
-  
-.line-one {
-  display: none;
-}
-  
-.line {
-  margin-top: 40px;
-  margin-left: 0;
-  width: 290px;
-}
-  
-.drone-actuel-paragraphe,
-.drone-innovation-paragraphe,
-.drone-civilisation-paragraphe,
-.drone-military-paragraphe {
-  font-size: 18px;
-}
-
-.nav_desktop{
-  width: 100%;
-  height: 100px;
-  display: block;
-}
-.list_desktop {
-  width: 75%;
-  height: 100%;
-  float: left;
-}
-.list_desktop ul{
-  list-style-type: none;
-  margin:40px 0;    
-}
-.list_desktop li{
-  float: left;
-  margin: 0 20px;
-  padding: 0 10px 15px 10px;
-}
-.list_desktop li a{
-  float: block;
-}
-.list_desktop li:hover{
-  border-bottom:2px solid black;
-}
-.nav_mobile{
-  display: none;
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
 }
 }
