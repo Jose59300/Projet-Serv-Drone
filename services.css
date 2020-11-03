@@ -21,6 +21,12 @@ html, body {
   src : url('Dolce\ Vita\ Light.ttf');
 }
 
+@font-face {
+  font-family: 'Dolce Vita';
+  src : url('Dolce\ Vita\ Heavy\ Bold.ttf');
+  font-weight: bold;
+}
+
 /******** SECTION 1 *******/
 
 .content {
@@ -42,6 +48,7 @@ html, body {
 .services {
   color: white;
   font-family: 'dolce vita';
+  font-weight: bold;
 }
 
 /******** SECTION 2 *******/
