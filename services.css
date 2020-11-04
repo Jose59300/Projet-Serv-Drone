@@ -5,7 +5,6 @@ html, body {
   height: 100%;
   background-color: white;
   font-family: 'roboto', sans-serif;
-  box-sizing: border-box;
   background: radial-gradient(#F4F4F4, #ffffff);
 }
 
