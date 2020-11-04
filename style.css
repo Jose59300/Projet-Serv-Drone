@@ -153,9 +153,21 @@ footer p{
     .list_desktop li:hover{
         border-bottom:2px solid black;
     }
+    nav li{
+        font-family: 'roboto';
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+}
 
 @media screen and (min-width: 768px){
     .nav_mobile{
         display: none;
+    }
+    nav li{
+        font-family: 'roboto';
+        font-size: 18px;
+        font-weight: lighter;
     }
 }
