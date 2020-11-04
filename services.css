@@ -10,7 +10,7 @@ html, body {
 
 * {
   font-family: 'roboto', sans-serif;
-  box-sizing: border-box;
+  font-weight: 100;
 }
 
 @font-face {
