@@ -26,6 +26,12 @@ html, body {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Dolce Vita';
+  src : url('Dolce\ Vita\ Light.ttf');
+  font-weight: lighter;
+}
+
 /******** SECTION 1 *******/
 
 .content {
@@ -330,8 +336,8 @@ html, body {
 .logo-instagram,
 .logo-twitter,
 .logo-fb {
-  width: 30%;
-  height: 30%;
+  width: 5%;
+  height: 5%;
 }
 
 @media screen and (min-width: 768px) {
@@ -460,7 +466,7 @@ html, body {
 .logo-instagram,
 .logo-twitter,
 .logo-fb {
-  width: 10%;
+  width: 5%;
 }
 }
 
