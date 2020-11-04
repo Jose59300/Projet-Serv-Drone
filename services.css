@@ -1,0 +1,504 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'roboto', sans-serif;
+  box-sizing: border-box;
+  background: radial-gradient(#F4F4F4, #ffffff);
+}
+
+* {
+  font-family: 'roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Dolce Vita';
+  src : url('Dolce\ Vita.ttf');
+  src : url('Dolce\ Vita\ Heavy\ Bold.ttf');
+  src : url('Dolce\ Vita\ Light.ttf');
+}
+
+@font-face {
+  font-family: 'Dolce Vita';
+  src : url('Dolce\ Vita\ Heavy\ Bold.ttf');
+  font-weight: bold;
+}
+
+/******** SECTION 1 *******/
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%
+}
+
+.sky {
+  width: 100%;
+}
+
+.text-content {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.services {
+  color: white;
+  font-family: 'dolce vita';
+  font-weight: bold;
+}
+
+/******** SECTION 2 *******/
+
+.background_pack_deluxe,
+.background_pack {
+  padding: 20px;
+}
+
+.title_deluxe,
+.first_pack {
+  color: #032442;
+  font-size: 70px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.light_size_deluxe,
+.light_size_pack,
+.light_size {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.drone_buy {
+  margin-top: 80px;
+  font-family: 'dolce vita', sans-serif;
+  font-size: 30px;
+  color: #032442;
+}
+
+.title_drone {
+  font-family: 'dolce vita', sans-serif;
+}
+
+.typo_size_deluxe,
+.typo_size_drone,
+.typo_size_title {
+  font-size: 25px;
+  font-family: 'dolce vita', sans-serif;
+}
+
+.deluxe_paragraphe,
+.description_services {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.line_drone_plus,
+.line {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.typo_deluxe_size,
+.typo_size_paragraphe {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.button_buy {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.button_buy a{
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/******** SECTION 3 *******/
+.background_application,
+.background_pack_quinze {
+  background-color: #032442;
+  padding: 20px;
+}
+
+.second_pack {
+  color: white;
+  font-size: 70px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.service_supp {
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.services_added {
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+}
+
+.description_drone_plus {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.line_drone_plus {
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+.garantie_drone_plus {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.typo_size_drone_plus {
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+
+/******** SECTION 4 *******/
+.service_added_deluxe {
+  font-family: 'dolce vita';
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.services_supp_deluxe {
+  font-family: 'dolce vita';
+}
+
+.drone_buy_section_4 {
+  font-family: 'dolce vita', sans-serif;
+  font-size: 30px;
+  color: #032442;
+}
+
+.line {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+/******** SECTION 5 *******/
+.pictures_drone {
+  padding: 20px;
+  background-color: white;
+
+}
+
+.drone_colis,
+.picture_drone_two,
+.pictures_drone_one {
+  padding: 20px;
+}
+
+.drone_colis_picture,
+.drone_grey,
+.drone_flying {
+  width: 100%;
+  height: 100%;
+}
+
+/******** SECTION 6 *******/
+
+.explication_application {
+  display: block;
+}
+
+.application_title {
+  text-align: center;
+  color: white;
+  font-family: 'dolce vita';
+  font-size: 30px;
+}
+
+.paragraphe_explication {
+  margin-top: 70px;
+  display: inline-flex;
+}
+.line_orange {
+  border: 1px solid #F18819;
+  display: flex;
+  margin-right: 10px;
+}
+
+.app_paragraphe {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.bouton_app {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.bouton_app a {
+  background-color:#FF993C;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'dolce vita', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/******** SECTION 7 *******/
+.android,
+.apple {
+  padding: 20px;
+  width: 25%;
+}
+
+.phone_gps {
+  margin-top: 80px;
+}
+
+.phone {
+  width: 100%;
+}
+
+/******** SECTION 7 *******/
+
+
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 20px;
+}
+
+.content-communauty {
+
+}
+
+.communauty {
+  font-family: 'dolce vita', sans-serif;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 30%;
+  height: 30%;
+}
+
+@media screen and (min-width: 768px) {
+.services {
+  font-size: 50px;;
+}
+
+.background_pack_deluxe,
+.background_pack {
+  padding: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title_services_deluxe,
+.title_services {
+  width: 40%;
+  margin-top: 150px;
+}
+
+.title_deluxe,
+.first_pack {
+  font-size: 80px;
+  line-height: 60px;
+}
+
+.light_size_deluxe,
+.light_size {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.drone_buy_section_4,
+.drone_buy {
+  width: 80%;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.title_drone {
+  font-family: 'dolce vita', sans-serif;
+}
+
+.typo_size_deluxe,
+.typo_size_title {
+  font-size: 30px;
+}
+
+.deluxe_paragraphe,
+.description_services {
+  font-size: 20px;
+}
+
+.line {
+  margin-left: 0;
+}
+
+/*------Section 3------*/
+.background_application,
+.background_pack_quinze {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_services_two {
+  width: 30%;
+  margin-top: 150px;
+}
+
+.second_pack {
+  font-size: 80px;
+  line-height: 60px;
+}
+
+
+.service_supp {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.services_added {
+  font-size: 35px;
+}
+
+.typo_size_drone {
+  font-size: 30px;
+}
+
+.description_drone_plus {
+  font-size: 20px;
+}
+
+.line_drone_plus {
+  margin-left: 0;
+}
+
+/*------Section 4------*/
+.service_added_deluxe {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*------Section 5------*/
+
+/*------Section 6------*/
+.application_title {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.app_paragraphe {
+  font-size: 20px;
+}
+
+/*------Section 7------*/
+.background-section {
+  padding: 40px;
+}
+
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
+}
+}
+
+@media screen and (min-width: 992px) {
+.application_title {
+  margin-top: 80px;
+}
+
+.paragraphe_explication {
+  width: 50%;
+}
+
+.phone_gps {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+  
+.pictures_drone {
+  display: flex;
+  padding: 40px;
+}
+
+.pictures_drone_one,
+.picture_drone_two,
+.drone_colis {
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.services {
+  font-size: 80px;;
+}
+
+.android,
+.apple {
+  padding: 20px;
+  width: 15%;
+}
+}

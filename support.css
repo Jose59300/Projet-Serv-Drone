@@ -1,0 +1,137 @@
+body {
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.sectionHelp, .sectionSoftware, .sectionCommunity {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 50px;
+}
+
+.sectionHelp p {
+  width: 60%;
+}
+
+.sectionHelp img {
+  display: flex;
+  max-width: 60%;
+  max-height: 40vh;
+}
+
+.sectionHelp button {
+  background-color: #FF993C;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.softwarePicture img {
+  max-width: 75%;
+}
+
+.softwarePicture {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 20px;
+}
+
+.softwareText {
+  width: 40%;
+  margin: 20px;
+}
+
+.communityPictures img {
+  display: flex;
+  max-width: 50px;
+}
+
+.communityPictures, .communityText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.helpImage, .helpText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 25px;
+}
+.communityText h2,
+.softwareText h2,
+.helpText h2{
+  font-family: 'dolce vita';
+}
+.helpText p,
+.softwareText p{
+  font-family: 'roboto';
+}
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 10px;
+}
+.content_community {
+  margin: 30px;
+}
+.community {
+  font-family: 'dolce vita', sans-serif;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 50px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .helpText {
+    width: 100%;
+    font-size: 80%;
+  }
+  .helpImage {
+     width: 100%;
+     margin: 0 25px;
+  }
+    
+  .softwareText {
+    width: 100%;
+    margin: 20px;
+    font-size: 80%;
+  }
+  .sectionHelp button {
+    background-color: #FF993C;
+    width: 250px;
+    height: 50px;
+    border-radius: 8%;
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  .helpText {
+    font-size: 80%;
+  }
+    
+  .softwareText {
+    font-size: 80%;
+  }
+}

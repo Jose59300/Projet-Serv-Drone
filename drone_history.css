@@ -1,0 +1,163 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'dolce vita';
+  src : url('Dolce\ Vita.ttf'),
+        url('Dolce\ Vita\ Heavy\ Bold.ttf'),
+        url('Dolce\ Vita\ Light.ttf');
+}
+
+.content-section-history {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.drone-flying {
+  width: 100%;
+}
+h1 {
+  font-family: 'Dolce Vita';
+  color: white;
+  position: absolute;
+  margin-top: auto;
+  font-size: 50px;
+}
+.content-section-paragraphe-two,
+.content-section-paragraphe {
+  display: block;
+  margin: 20px;
+}
+.typo-size {
+  font-size: 20px;
+}
+.drone-actuel-title,
+.drone-innovation-title,
+.drone-civilisation-title,
+.drone-military {
+  font-family: 'dolce vita', sans-serif;
+  margin-top: 40px;
+}
+.content-drone-actuel,
+.content-drone-innovation,
+.content-drone-civilisation,
+.content-drone-military {
+  display: inline-flex;
+}
+.drone-actuel-paragraphe,
+.drone-innovation-paragraphe,
+.drone-civilisation-paragraphe,
+.drone-military-paragraphe {
+  font-weight: 200;
+  line-height: 24px;
+}
+.line-orange {
+  border: 1px solid #F18819;
+  display: flex;
+  margin-right: 10px;
+}
+.line-one,
+.line {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
+
+.background-section {
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 20px;
+}
+
+.communauty {
+  font-family: 'dolce vita', sans-serif;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 30%;
+  height: 30%;
+}
+
+
+@media screen and (min-width: 768px) {
+h1 {
+  font-size: 60px;
+}
+.typo-size {
+  font-size: 30px;
+}
+.drone-actuel-title,
+.drone-innovation-title,
+.drone-civilisation-title,
+.drone-military {
+  font-size: 35px;
+}
+.content-section-paragraphe-two,
+.content-section-paragraphe {
+  margin: 55px;
+  display: flex;
+}
+.content-civilisation,
+.drone-actuel {
+  width: 50%;
+  margin-left: 50px;
+}
+.drone-military-title,
+.content-innovation {
+  width: 50%;
+  margin-right: 70px;
+}
+.line-one {
+  display: none;
+}
+.line {
+  margin-top: 40px;
+  margin-left: 0;
+  width: 290px;
+}
+.drone-actuel-paragraphe,
+.drone-innovation-paragraphe,
+.drone-civilisation-paragraphe,
+.drone-military-paragraphe {
+  font-size: 18px;
+}
+
+.background-section {
+  padding: 40px;
+}
+
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
+}
+}
+
+@media screen and (min-width: 992px){
+.background-section {
+  padding: 40px;
+}
+  
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
+}
+}
