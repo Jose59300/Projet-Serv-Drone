@@ -16,6 +16,7 @@ body .sub_title{
     font-family: 'roboto';
 }
 
+
 .background_image{
     height: 200px;
     background-image: url(./images/drone_background.jpg);
@@ -120,7 +121,7 @@ body .sub_title{
     font-size: 130px;
 }
 .button_service_pack{
-    width: 60%;
+    width: 30%;
     background-color: #FF993B;
     text-align: center;
     border-radius: 20px;
