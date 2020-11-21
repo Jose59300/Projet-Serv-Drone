@@ -1,31 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
-body .title_1{
+
+
+@font-face {
+  font-family: 'dolce vita';
+  src : url('Dolce\ Vita.ttf'),
+        url('Dolce\ Vita\ Heavy\ Bold.ttf'),
+        url('Dolce\ Vita\ Light.ttf');
+}
+
+.title_1{
     font-family: 'dolce vita';
     font-size: 34px;
 }
-body .sub_title{
+
+.sub_title{
     font-family: 'dolce vita';
     font-size:20px;
 }
 .startup_paragraph p,
 .services p,
 .button_service_pack p{
-    font-family: 'roboto';
+    font-weight: 300;
+    line-height: 24px;
 }
 
 
 .background_image{
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background-image: url(./images/drone_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
 .text_background_image{
-    width: 80%;
+    margin-top: 100px;
     color: white;
     float: left;
     padding: 50px 0 0 20px;
@@ -88,6 +105,10 @@ body .sub_title{
     flex-direction: column;
     justify-content: space-around;
 }
+
+.services-paragraphe{
+    margin: 40px 20px 40px 20px;
+}
 .services .title_1{
     width: 100%;
     display: block;
@@ -121,19 +142,22 @@ body .sub_title{
     font-size: 130px;
 }
 .button_service_pack{
-    width: 30%;
+    width: 45%;
     background-color: #FF993B;
     text-align: center;
     border-radius: 20px;
     margin-bottom: 50px;
-
 }
+
+.button_service_pack:hover{
+    background-color: #d36600;
+}
+
 .button_service_pack p{
     color: white;
     padding: 10px 20px 10px 20px;
 }
 .incoming_events{
-    width: 100%;
     background-color: #032442;
     text-align: center;
 }
@@ -143,13 +167,13 @@ body .sub_title{
     padding-top: 20px;
 }
 .incoming_events_img{
-    display: flex;
+    display: block;
     justify-content: space-around;
     padding-bottom: 20px;
 }
 
-.incoming_events div img{
-    width: 25%;
+.incoming_events img{
+    width: 50%;
     padding: 15px;
 } 
 .press_talks{
@@ -167,30 +191,33 @@ body .sub_title{
     display: inline;
     margin: 0 20px;
 }
-body img{
+
+img{
     width: 100%;
 }
+
 .background-section {
-    background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
-    padding: 10px;
-  }
-  .content_community {
-    margin: 30px;
-  }
-  .community {
-    font-family: 'dolce vita', sans-serif;
-    text-align: center;
-  }
-  .logos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 45px;
-  }
-  .logo-instagram,
-  .logo-twitter,
-  .logo-fb {
-    width: 50px;
-  }
+  background: radial-gradient(#e8e8e8, #F4F4F4, #fafafa, #F4F4F4);
+  padding: 20px;
+}
+
+.communauty {
+  font-family: 'dolce vita';
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.logo-instagram,
+.logo-twitter,
+.logo-fb {
+  width: 10%;
+  height: 10%;
+}
 @media screen and (min-width: 768px){
 
     .text_background_image {
@@ -221,5 +248,36 @@ body img{
         height: 180px;
     }
     
+    .logo-instagram,
+    .logo-twitter,
+    .logo-fb {
+      width: 5%;
+      height: 5%;
+    }
 
+    .incoming_events_img{
+        display: flex;
+    }
+
+    .incoming_events_img img{
+        width: 20%;
+        height: 20%;
+    }
+
+    .button_service_pack{
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .button_service_pack{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .button_service_pack{
+        width: 40%;
+    }
 }
