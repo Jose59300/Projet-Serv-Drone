@@ -1,4 +1,6 @@
-h2 {
+
+
+.cond-gen {
   text-align: center;
   margin: 5%;
 }
@@ -7,14 +9,16 @@ P {
   margin: 5% 5%;
 }
 
-div {
-  display: flex;
+.images {
+  background-color: #032442;
+  display: block;
+  color: white;
   justify-content: center;
 }
 
-img {
-  background-color: #032442;
-  width: 50%;
-  height: 50vh;
+.image-payplug {
+  margin-left: 36%;
+  width: 30%;
   margin-bottom: 5%;
+
 }
